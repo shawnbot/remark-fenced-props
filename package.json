@@ -1,0 +1,19 @@
+{
+  "name": "remark-fenced-props",
+  "version": "1.0.0",
+  "description": "Parse fenced code block meta strings as JSX props",
+  "main": "index.js",
+  "keywords": [
+    "remark",
+    "mdx"
+  ],
+  "author": "Shawn Allen",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.5.5",
+    "@babel/parser": "^7.5.5",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/traverse": "^7.5.5",
+    "unist-util-visit": "^2.0.0"
+  }
+}
