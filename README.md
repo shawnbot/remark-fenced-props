@@ -1,4 +1,4 @@
-# remark-fenced-code-props
+# remark-fenced-props
 
 A remark plugin for transforming the "metastring" of fenced code blocks as JSX props, as in:
 
@@ -8,7 +8,10 @@ A remark plugin for transforming the "metastring" of fenced code blocks as JSX p
 ```
 ````
 
-which parses into:
+:warning: **This is really just a proof of concept, and can only be used in Node because it uses `vm` to execute the expressions.**
+
+
+The above example parses into the JSON below, with the `code` node's `props` attribute set to the parsed values:
 
 ```diff
 {
@@ -57,3 +60,4 @@ which parses into:
   }
 }
 ```
+
