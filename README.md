@@ -8,7 +8,7 @@ A remark plugin for transforming the "metastring" of fenced code blocks as JSX p
 ```
 ````
 
-:warning: **This is really just a proof of concept, and can only be used in Node because it uses `vm` to execute the expressions.**
+:warning: **This is really just a proof of concept, and can only be used in Node because it uses `vm` to execute the expressions in a sandbox.**
 
 
 The above example parses into the JSON below, with the `code` node's `props` attribute set to the parsed values:
